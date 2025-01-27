@@ -23,7 +23,6 @@ Desenvolver um sistema que:
 
 ## Estrutura do Repositório
 - `index.html`: Página inicial do sistema.
-- `cadastro.html`: Página para cadastro de usuários.
 - `coleta.html`: Página para agendar coletas.
 - `css/`: Arquivos de estilo.
 - `js/`: Scripts de funcionalidades.
