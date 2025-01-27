@@ -18,8 +18,7 @@ Desenvolver um sistema que:
 
 ## Tecnologias Utilizadas
 - **Front-end:** HTML, CSS, JavaScript.
-- **Back-end:** Node.js, Express.
-- **Banco de Dados:** MongoDB.
+- **Back-end:** Node.js, Express
 - **APIs:** Google Maps API para geolocalização.
 
 ## Estrutura do Repositório
