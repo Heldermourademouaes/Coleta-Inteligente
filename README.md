@@ -26,8 +26,8 @@ Desenvolver um sistema que:
 - `css/`: Arquivos de estilo.
 - `js/`: Scripts de funcionalidades.
 
-## Sobre o Grupo Vima
-O grupo **Vima** é composto por participantes do Recode Pro 2024, unidos pela missão de desenvolver soluções tecnológicas inovadoras que impactem positivamente a sociedade.
+## Sobre o Grupo 062
+O grupo  é composto por participantes do Recode Pro 2024, unidos pela missão de desenvolver soluções tecnológicas inovadoras que impactem positivamente a sociedade.
 
 ## Acesse o Projeto
 Clique no link abaixo para visualizar o projeto publicado:
