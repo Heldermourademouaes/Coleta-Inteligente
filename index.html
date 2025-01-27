@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coleta Inteligente - Porto Alegre</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header id="home">
+        <h1>Coleta Inteligente</h1>
+    </header>
+    
+    <!-- Menu -->
+ 
+<nav>
+    <ul>
+        <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+        <li><a href="#monitoramento">Monitoramento</a></li>
+        <li><a href="#tabela">Horários</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+
+<div id="site">
+
+    
+    <div class="destaque">
+        <div class="item">
+            <img src="banner-1.png" alt="">
+        </div>
+        <div class="item">
+            <img src="banner-2.png" alt="">
+        </div>
+        <div class="item">
+            <img src="banner-3.png" alt="">
+        </div>
+    </div>
+
+    <!-- Localização do Caminhão -->
+    <div class="location-container" id="monitoramento">
+        <!-- Relógio -->
+        <div class="clock-container">
+            <div id="clock">00:00:00</div> <!-- Aqui o relógio será exibido -->
+        </div>
+
+        <div class="localizacao">
+            <h2>Localização Atual do Caminhão:</h2>
+            <p id="current-location">Calculando...</p>
+    
+            <h2>Proxima Localização:</h2>
+            <p id="future-location">Calculando...</p>
+        </div>
+    </div>
+
+    <!-- Tabela de Horários de Coleta -->
+    <section id="tabela">
+
+        <h2 class="titulo">Horários de Coleta por Rua</h2>
+
+        <table class="street-table">
+            <thead>
+                <tr>
+                    <th>Rua</th>
+                    <th>Bairro</th>
+                    <th>Horário de Coleta</th>
+                    <th>Frequência</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rua dos Andradas</td>
+                    <td>Centro Histórico</td>
+                    <td>07:00 - 08:00</td>
+                    <td>Segunda, Quarta, Sexta</td>
+                </tr>
+                <tr>
+                    <td>Avenida Borges de Medeiros</td>
+                    <td>Centro Histórico</td>
+                    <td>08:00 - 09:00</td>
+                    <td>Segunda a Sábado</td>
+                </tr>
+                <tr>
+                    <td>Rua Marechal Floriano Peixoto</td>
+                    <td>Centro Histórico</td>
+                    <td>09:00 - 10:00</td>
+                    <td>Terça e Quinta</td>
+                </tr>
+                <tr>
+                    <td>Avenida Senador Salgado Filho</td>
+                    <td>Centro Histórico</td>
+                    <td>10:00 - 11:00</td>
+                    <td>Segunda a Sexta</td>
+                </tr>
+                <tr>
+                    <td>Rua Vigário José Inácio</td>
+                    <td>Centro Histórico</td>
+                    <td>11:00 - 12:00</td>
+                    <td>Segunda, Quarta, Sexta</td>
+                </tr>
+                <tr>
+                    <td>Rua General Câmara</td>
+                    <td>Centro Histórico</td>
+                    <td>12:00 - 13:00</td>
+                    <td>Terça e Quinta</td>
+                </tr>
+                <tr>
+                    <td>Rua Duque de Caxias</td>
+                    <td>Centro Histórico</td>
+                    <td>13:00 - 14:00</td>
+                    <td>Segunda, Quarta, Sexta</td>
+                </tr>
+                <tr>
+                    <td>Avenida Júlio de Castilhos</td>
+                    <td>Centro Histórico</td>
+                    <td>14:00 - 15:00</td>
+                    <td>Segunda a Sábado</td>
+                </tr>
+                <tr>
+                    <td>Rua Voluntários da Pátria</td>
+                    <td>Centro Histórico</td>
+                    <td>15:00 - 16:00</td>
+                    <td>Terça e Quinta</td>
+                </tr>
+                <tr>
+                    <td>Rua Washington Luiz</td>
+                    <td>Centro Histórico</td>
+                    <td>16:00 - 17:00</td>
+                    <td>Segunda a Sexta</td>
+                </tr>
+                <!-- Novas ruas -->
+                <tr>
+                    <td>Rua da Praia</td>
+                    <td>Centro Histórico</td>
+                    <td>17:00 - 18:00</td>
+                    <td>Segunda, Quarta, Sexta</td>
+                </tr>
+                <tr>
+                    <td>Avenida Ipiranga</td>
+                    <td>Azenha</td>
+                    <td>18:00 - 19:00</td>
+                    <td>Segunda a Sábado</td>
+                </tr>
+                <tr>
+                    <td>Rua Dom Pedro II</td>
+                    <td>Independência</td>
+                    <td>19:00 - 20:00</td>
+                    <td>Terça e Quinta</td>
+                </tr>
+                <tr>
+                    <td>Avenida Assis Brasil</td>
+                    <td>Passo D'Areia</td>
+                    <td>20:00 - 21:00</td>
+                    <td>Segunda a Sexta</td>
+                </tr>
+                <tr>
+                    <td>Rua Cristóvão Colombo</td>
+                    <td>Floresta</td>
+                    <td>21:00 - 22:00</td>
+                    <td>Segunda, Quarta, Sexta</td>
+                </tr>
+                <tr>
+                    <td>Rua Afonso Pena</td>
+                    <td>Centro</td>
+                    <td>08:00 - 09:00</td>
+                    <td>Segunda, Quarta, Sexta</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="accordion-container" id="sobre">
+        
+        <!-- Caminhões de lixo -->
+        <h2 class="accordion titulo">Coleta Inteligente - Monitoramento em Tempo Real</h2>
+            <div class="painel">
+                <p>O projeto Coleta Inteligente foi desenvolvido com o objetivo de melhorar a eficiência e a organização dos serviços de coleta de lixo na cidade de Porto Alegre, especificamente no Centro Histórico. Nosso foco é reduzir os problemas relacionados à obstrução de vias e bueiros, causados pelo acúmulo indevido de resíduos sólidos, melhorando tanto a infraestrutura urbana quanto a qualidade de vida da população.
+                </p>
+            </div>
+        
+        <h2 class="accordion titulo">Problema</h2>
+            <div class="painel">
+                <p>Atualmente, muitos moradores enfrentam dificuldades para saber exatamente quando o caminhão de coleta de lixo passará em suas ruas. Essa incerteza leva ao acúmulo de lixo nas calçadas e pode contribuir para entupimentos dos bueiros, agravando problemas como alagamentos durante os períodos de chuva.</p>
+            </div>
+        
+        <h2 class="accordion titulo">Solução</h2>
+            <div class="painel">
+                <p>
+                A Coleta Inteligente propõe um sistema que utiliza tecnologia para rastrear em tempo real a localização dos caminhões de lixo em diferentes regiões da cidade. Por meio de um aplicativo ou site, os moradores podem verificar: 
+                <br>
+                <ul>
+                    <li>
+                        <strong>Horário Atual de Coleta:</strong> mostra a localização atual do caminhão de lixo e as próximas ruas no trajeto.
+                    </li>
+                    <li>
+                        <strong>Previsão de 15 Minutos:</strong> o sistema calcula onde o caminhão estará nos próximos 15 minutos, permitindo que os moradores se preparem para colocar o lixo na rua no momento certo.
+                    </li>
+                </ul>
+                
+                <h3>Funcionalidades:</h3>
+                
+                <ol>
+                    <li><strong>Tabela de Horários de Coleta:</strong> os horários de coleta por rua são organizados em uma tabela que exibe a rua, o bairro, o horário de passagem do caminhão e a frequência semanal de coleta.</li>
+                    <li><strong>Rastreamento em Tempo Real:</strong> o sistema informa onde o caminhão de lixo está em tempo real e fornece uma previsão de onde ele estará em até 15 minutos.</li>
+                    <li><strong>Redução de Lixo nas Vias:</strong> com a previsão de horários e o rastreamento em tempo real, o sistema evita que o lixo fique exposto por muito tempo nas calçadas, ajudando a manter a cidade mais limpa e reduzindo os riscos de obstruções nos bueiros.</li>
+                </ol>
+                </p>
+            </div>
+        
+        <h2 class="accordion titulo">Impacto Social e Urbano</h2>
+            <div class="painel">
+                <p>
+                A implementação do Coleta Inteligente não apenas melhora a eficiência da coleta de lixo, mas também promove uma cidade mais limpa, sustentável e organizada. Com a população tendo acesso fácil às informações de coleta, conseguimos:
+                <ul>
+                    <li><strong>Reduzir o impacto do lixo mal-disposto:</strong></li>
+                    <li><strong>Prevenir alagamentos:</strong></li>
+                    <li><strong>Melhorar a qualidade de vida urbana:</strong></li>
+                </ul>
+                Além disso, o projeto contribui para uma maior consciência ambiental entre os moradores, incentivando o descarte correto e nos horários apropriados.
+                </p>
+            </div>
+
+    </section>
+
+    <section class="equipe" id="equipe">
+        <h1>Equipe 062</h1>
+        <ul>
+            <li>Hélder Moura</li>
+            <li>Anderson Roberto</li>
+            <li>Patrick Parente</li>
+        </ul>
+    </section>
+
+</div>
+
+<!-- Rodapé -->
+<footer id="contato">
+    <p>&copy; 2024 Coleta Inteligente - Porto Alegre <a href="mailto:contato@coletainteligente.com">Contato</a></p>
+</footer>
+
+<script src="jquery.js"></script>
+<script src="slick/slick.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
