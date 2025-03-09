@@ -1,5 +1,4 @@
-@ -1,41 +0,0 @@
-@ -1,2 +1,39 @@
+
 # Coleta-Inteligente
 O projeto Coleta Inteligente foi parte da Hackathon do Recode Pro 2024
 
