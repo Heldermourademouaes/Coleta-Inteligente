@@ -34,8 +34,7 @@ O grupo **062** é composto por participantes do Recode Pro 2024, unidos pela mi
 
 ## Acesse o Projeto
 Clique no link abaixo para visualizar o projeto publicado:
-[🌐 Acesse o site aqui](https://linkdoprojeto.com)
-
+[🌐 Acesse o site aqui](https://heldermourademouaes.github.io/Coleta-Inteligente/)
 ---
 
 Desenvolvido por **Helder Moura** e o grupo **Vima** durante a Hackathon Recode Pro 2024.
